@@ -1,0 +1,19 @@
+{
+
+    "manifest_version": 2,
+    "name": "FireClock",
+    "version": "1.0",
+   
+    "description": "Functional self-updating clock with seconds",
+  
+    "icons": {
+        "96": "icons/96.png"
+    },
+  
+    "browser_action": {
+        "default_icon": "icons/32.png",
+        "default_title": "FireClock",
+        "default_popup": "popup/hour.html"
+    }
+  
+  }
